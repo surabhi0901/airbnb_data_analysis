@@ -1,3 +1,5 @@
+#How to run this: dtale-streamlit run c:/your-path/your-script.py
+
 #Importing necessary libraries
 
 import streamlit as st
