@@ -61,7 +61,7 @@ if select == "Data Preprocessing":
     connect = st.button("Connect to MongoDB Atlas", use_container_width = True)
     if connect:
         #Connecting to MongoDB
-        client = pymongo.MongoClient("mongodb+srv://sy09012000:aBmzDFJSExfXrVj8@cluster0.mam36xj.mongodb.net/?retryWrites=true&w=majority")
+        client = pymongo.MongoClient("link to connect to MongoDB Atlas")
 
         #Accessing airbnb data
         db = client["sample_airbnb"]
